@@ -1,0 +1,13 @@
+node_modules/
+dist/
+*.log
+*.zip
+
+# Runtime state / generated output (the curated demo/ folder is committed on purpose).
+outputs/
+.gadyuka_openrouter/
+.demo-state/
+
+# Env / secrets — never commit the OpenRouter key.
+.env
+.env.local
